@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<title>Patidar & Brother Electric</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f5f7fb;
+}
+
+/* Header Brand Style */
+
+header{
+background:linear-gradient(45deg,#1e3a8a,#2563eb);
+color:white;
+padding:50px 20px;
+text-align:center;
+border-radius:0 0 40px 40px;
+}
+
+/* Section Card */
+
+.card{
+background:white;
+margin:20px;
+padding:25px;
+border-radius:25px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Service Box */
+
+.service{
+padding:12px;
+border-bottom:1px solid #eee;
+}
+
+/* Button */
+
+.btn{
+width:100%;
+padding:15px;
+border:none;
+border-radius:15px;
+background:#2563eb;
+color:white;
+font-size:17px;
+}
+
+/* Animation */
+
+.fade{
+animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(20px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+footer{
+text-align:center;
+padding:25px;
+color:#666;
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="fade">
+<h1>Patidar & Brother Electric 🔌</h1>
+<p>Indore Professional AC & Electrical Service</p>
+<p>हिंदी | English Support</p>
+</header>
+
+<div class="card fade">
+<h2>⭐ Our Premium Services</h2>
+
+<div class="service">✅ AC Normal Service</div>
+<div class="service">✅ AC Water Service</div>
+<div class="service">✅ AC Chemical Service</div>
+<div class="service">✅ Electrical Wiring Work</div>
+</div>
+
+<div class="card fade">
+<h2>⭐ Customer Trust</h2>
+<p>✔ 120+ Projects Completed</p>
+<p>✔ 95+ Happy Clients</p>
+<p>✔ 4.8 Rating</p>
+</div>
+
+<div class="card fade">
+<h2>📞 Book Service</h2>
+
+<a href="https://wa.me/919522246208">
+<button class="btn">Chat on WhatsApp</button>
+</a>
+
+</div>
+
+<footer>
+Patidar & Brother Electric © 2026
+</footer>
+
+</body>
+</html>
